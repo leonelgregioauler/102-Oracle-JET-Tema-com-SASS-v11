@@ -1,0 +1,28 @@
+<!--
+ Copyright (c) 2014, 2021, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div class="oj-hybrid-padding">
+  <h1>Dashboard Content Area</h1>
+  <div class="oj-hybrid-padding">
+    <oj-buttonset-one  id="customPicker"
+                        class="oj-buttonset-width-equal demo-buttonset-tall"
+                        labelled-by="settings_demothemelabel"
+                        chroming="outlined"
+                        value="{{theme.demoTheme}}">
+      <oj-option value="none" id="theme_none" title="Sem Tema">
+        <span slot="startIcon" class="oj-fwk-icon oj-fwk-icon-cross02"></span>Sem Tema
+      </oj-option>
+      <!-- <oj-option value="alta" id="theme_alta" title="Alta">
+        <span slot="startIcon" class="oj-fwk-icon-status-info"></span>Alta
+      </oj-option> -->
+      <oj-option value="stealth" id="theme_dark" title="Stealth">
+        <span slot="startIcon" class="oj-fwk-icon oj-fwk-icon-list"></span>Dark
+      </oj-option>
+      <oj-option value="green" id="theme_green" title="green">Verde
+        <span slot="startIcon" class=" oj-fwk-icon-status-confirmation"></span>
+      </oj-option>
+    </oj-buttonset-one>
+  </div>
+</div>
